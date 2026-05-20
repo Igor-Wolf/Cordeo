@@ -72,7 +72,7 @@ export default function About() {
 
         </NormalText>
         <LowerText>A sua versão é {VERSION}</LowerText>
-        {/* {versionReq && (
+         {versionReq && (
           <>
             <LowerText>
               A versão mais recente disponível é{" "}
@@ -82,7 +82,7 @@ export default function About() {
               <ButtonText onPress={openUrl}>Baixar</ButtonText>
             </DonwloadButton>
           </>
-        )} */}
+        )} 
        
       </GeneralContainer>
       }
